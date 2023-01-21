@@ -8,7 +8,6 @@ Welcome to my personal repository where I store solutions to The Odin Project co
 - [Projects](#projects)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
