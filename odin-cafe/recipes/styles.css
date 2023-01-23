@@ -1,0 +1,12 @@
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.split {
+    height: 100%;
+    width: 60%;
+    position: fixed;
+    overflow-x: hidden;
+}
