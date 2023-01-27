@@ -2,25 +2,25 @@
     padding: 0px;
     border: 0px;
     margin: 0px;
-
 }
 
 .split {
     height: 100%;
-    width: 48%;
+    width: 60%;
     position: fixed;
     overflow-x: hidden;
 }
 
-.split.left {
-    left: 0px;
+.split.right {
+    left: 100px;
     background-color: rgb(255, 255, 255);
+    font-size: 13px;
     font-family:'Trebuchet MS', sans-serif
 
 }
 
-.split.right {
-    right: 0px;
+.split.left {
+    left: 700px;
     background-color: rgb(24, 23, 23);
     font-family:'Trebuchet MS', sans-serif
 }
@@ -77,4 +77,3 @@ p {
     color: rgb(81, 163, 81);
     font-size: 16px;
 }
-
