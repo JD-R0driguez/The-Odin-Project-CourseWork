@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(67, 65, 75);
+    background-color: #1e88e5;
+}
