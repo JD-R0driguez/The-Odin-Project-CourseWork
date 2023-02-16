@@ -10,3 +10,61 @@ body {
     color: rgb(67, 65, 75);
     background-color: #1e88e5;
 }
+
+
+ul {
+    list-style: none;
+}
+
+img {
+    min-width: 300px;
+    max-width: 30%;
+    max-height: auto;
+    margin: 15px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar {
+    background-color:#2b2e31;
+    color: white;
+    height: 60px;
+
+}
+
+.logo {
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #45639a; 
+}
+
+.container ul {
+    display: flex;
+    gap: 20px;
+}
