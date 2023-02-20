@@ -126,3 +126,15 @@ h1, h2 {
     margin-top: 15px;
     box-shadow: 0 3px 5px rgb(117, 117, 126);
 }
+
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+        margin: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+    .section .container {
+        flex-direction: column;
+    }
+}
