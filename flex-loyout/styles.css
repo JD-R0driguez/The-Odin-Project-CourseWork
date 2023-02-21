@@ -128,7 +128,7 @@ h1, h2 {
 }
 
 @media (max-width: 768px) {
-    .header .container {
+    .hero .container {
         flex-direction: column;
         margin: 5px;
         padding: 10px;
