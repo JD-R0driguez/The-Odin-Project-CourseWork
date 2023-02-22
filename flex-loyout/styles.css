@@ -1,16 +1,17 @@
+/* Global Styles */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* Body Styles */
 body {
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 14px;
     color: rgb(67, 65, 75);
     background-color: #1e88e5;
 }
-
 
 ul {
     list-style: none;
@@ -38,7 +39,6 @@ h1, h2 {
     background-color:#2b2e31;
     color: white;
     height: 60px;
-
 }
 
 .logo {
@@ -53,6 +53,7 @@ h1, h2 {
     height: 100%;
 }
 
+/* Navbar Link Styles */
 .navbar a {
     color: white;
     font-size: 18px;
@@ -72,7 +73,6 @@ h1, h2 {
 .hero {
     background-color: white;
     color: rgb(61, 60, 60);
-
 }
 
 .hero{
@@ -80,13 +80,13 @@ h1, h2 {
     justify-content: center;
 }
 
+/* Hero Inner Container Styles */
 .hero .container{
     display: flex;
     gap: 15px;
     justify-content: space-between;
     align-items: center;
     margin: 5px;
-
 }
 
 .hero h1 {
@@ -110,6 +110,7 @@ h1, h2 {
     color: #3a5482; 
 }
 
+/* Section Container Styles */
 .section .container {
     display: flex;
     gap: 20px;
@@ -127,6 +128,7 @@ h1, h2 {
     box-shadow: 0 3px 5px rgb(117, 117, 126);
 }
 
+/* Media Query Styles for Small Screens */
 @media (max-width: 768px) {
     .hero .container {
         flex-direction: column;
@@ -138,3 +140,4 @@ h1, h2 {
         flex-direction: column;
     }
 }
+
